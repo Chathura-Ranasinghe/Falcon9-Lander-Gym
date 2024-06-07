@@ -31,5 +31,5 @@ def run_simulation(env, num_episodes=1):
         print(f"Episode {episode + 1} finished after {step_count} steps with total reward {total_reward}")
 
 if __name__ == "__main__":
-    run_simulation(env, num_episodes=1)
+    run_simulation(env, num_episodes=20)
     env.close()

@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: falcon_lander_gym
 Version: 0.1
 Summary: Custom Gym environment for Falcon 9 rocket landing simulation
-Home-page: https://github.com/Chathura-Ranasinghe/Falcon9-Lander-
+Home-page: https://github.com/Chathura-Ranasinghe/Falcon9-Lander-Gym
 Author: Chathura Ranasinghe
 Author-email: chathurar.99.bc@gmail.com
 Requires-Dist: gym
