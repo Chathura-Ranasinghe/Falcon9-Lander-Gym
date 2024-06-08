@@ -100,6 +100,10 @@ if __name__ == "__main__":
     env.close()
 ```
 
+If everything working fine, you can see somthing like this.
+
+![](assests/test-env.gif) 
+
 ### Training the Custom Environment
 
 Here is a basic script to train this custom environment using the PPO algorithm:
@@ -153,6 +157,8 @@ model.learn(total_timesteps=1000000, callback=callback)
 ## Challenges Faced
 
 Despite extensive training and fine-tuning, achieving a positive mean reward (`ep_rew_mean`) has been challenging. The model often results in negative rewards, indicating suboptimal landings. Continuous efforts to adjust hyperparameters and training strategies have been made to improve accuracy and performance.
+
+![](assests/1.png) 
 
 ### Possible Reasons for Suboptimal Performance
 
